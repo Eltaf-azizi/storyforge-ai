@@ -25,6 +25,22 @@ def generate_ai_story(genre: str, theme: str, length: str):
     response = client.chat.completions.create(
         model="gpt-turbo-3.5",
         messages=[
-            {"role": "system", "content": "you are a creative storyteller"}
-        ]
+            {"role": "system", "content": "you are a creative storyteller"},
+            {"role": "user", "content": prompt}
+        ],
+        max_token=500
     )
+
+
+    story = response.choices[0].message.content
+    return 
+
+
+
+
+def text_to_speech(story_text):
+    tts = gTTS(text=story_text, lang="en")
+    filename = f"story_{uuid.uuid4().hes}.mp3"
+
+
+    
