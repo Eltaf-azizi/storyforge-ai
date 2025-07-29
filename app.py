@@ -40,4 +40,19 @@ if st.button("Generate Story"):
             st.subheader("Listen to Your Story")
             st.audio(audio_url)
             
+
+
+
+            # Download Story as TXT
+            story_file = f"story_{genre}_{theme}.txt"
+            with open(story_file, "w", encoding="utf-8") as f:
+                f.write(story_text)
+
+
+            
+            st.download_button(label="Download Story as Text", data=story_text, file_name=story_file, mime="text/plain")
+
+
+        else:
+            st.error("Error generating the story. Please try again.")
             
