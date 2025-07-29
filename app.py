@@ -25,4 +25,19 @@ if st.button("Generate Story"):
 
 
         if response.status_code == 200:
+            data = response.json()
+            story_text = data["story"]
+            audio_url = data["audion_url"]
+
+
+            # Display Story
+            st.subheader("Your AI-Generated Story")
+            st.write(story_text)
+
+
+
+            # Play Audio
+            st.subheader("Listen to Your Story")
+            st.audio(audio_url)
+            
             
