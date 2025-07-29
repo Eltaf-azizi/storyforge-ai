@@ -40,7 +40,9 @@ def generate_ai_story(genre: str, theme: str, length: str):
 
 def text_to_speech(story_text):
     tts = gTTS(text=story_text, lang="en")
-    filename = f"story_{uuid.uuid4().hes}.mp3"
+    filename = f"story_{uuid.uuid4().hex}.mp3"
+    file_path = f"static/{filename}"
+    tts.save(file_path)
 
 
-    
+    return file_path
