@@ -31,3 +31,13 @@ Use OpenAI’s models to generate unique, creative narratives.
 
  - Fundamentals of API development and UI design.
 
+
+
+## 🎯 Who This Project is For
+ - 💡 Beginners in Python looking for a hands-on project.
+
+ - 🧑‍💻 Aspiring developers eager to build AI-powered apps.
+
+ - 🌍 Anyone passionate about creative writing or interactive tools.
+
+ - 🚀 Learners wanting to understand deployment and production-ready practices.
