@@ -18,3 +18,16 @@ Use OpenAI’s models to generate unique, creative narratives.
 
  - **🧩 Environment & Dependency Management**<br>
     Follow best practices using requirements.txt and virtual environments.
+
+
+## 📚 What You'll Learn
+ - Full-stack development using Python tools and frameworks.
+
+ - How to integrate AI into real-world web applications.
+
+ - End-to-end deployment and best practices.
+
+ - Using cloud platforms like AWS EC2 to host applications.
+
+ - Fundamentals of API development and UI design.
+
