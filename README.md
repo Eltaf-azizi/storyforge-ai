@@ -110,3 +110,15 @@ Edit
 cd streamlit_app
 streamlit run app.py
 ```
+
+## 🌍 Deployment (AWS EC2)
+1. Launch an EC2 instance.
+
+2. SSH into your server and clone the repository.
+
+3. Install Python, Pip, and dependencies.
+
+4. Set up .env file with your API key.
+
+5. Run both FastAPI and Streamlit with screen/tmux or a process manager.
+
