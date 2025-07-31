@@ -86,3 +86,27 @@ python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
+
+
+### 3. Set Up Environment Variables
+Create a .env file and add your OpenAI API key:
+
+```bash
+Copy
+Edit
+OPENAI_API_KEY=your_api_key_here
+```
+### 4. Run Backend
+```bash
+Copy
+Edit
+cd app
+uvicorn main:app --reload
+```
+### 5. Run Streamlit Frontend
+```bash
+Copy
+Edit
+cd streamlit_app
+streamlit run app.py
+```
