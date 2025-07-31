@@ -70,3 +70,19 @@ creative-story-generator/
 └── .env                      # API keys and environment variables
 ```
 
+## 🚀 Getting Started
+### 1. Clone the Repository
+```bash
+Copy
+Edit
+git clone https://github.com/your-username/creative-story-generator.git
+cd creative-story-generator
+```
+### 2. Create Virtual Environment & Install Dependencies
+```bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
