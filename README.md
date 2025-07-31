@@ -51,3 +51,22 @@ Use OpenAI’s models to generate unique, creative narratives.
 | OpenAI     | GPT	AI model for story generation|
 | Streamlit  |	Web interface for interaction    |
 | AWS EC2    |	Cloud deployment platform        |
+
+
+## 🧱 Project Structure
+```bash
+Copy
+Edit
+creative-story-generator/
+│
+├── app/                      # FastAPI backend
+│   └── main.py               # Main application logic
+│
+├── streamlit_app/            # Frontend (Streamlit)
+│   └── app.py                # UI for story generation
+│
+├── requirements.txt          # Python dependencies
+├── README.md                 # Project documentation
+└── .env                      # API keys and environment variables
+```
+
