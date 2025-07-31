@@ -122,3 +122,9 @@ streamlit run app.py
 
 5. Run both FastAPI and Streamlit with screen/tmux or a process manager.
 
+
+🤝 Contributing
+Contributions are welcome!
+Feel free to fork the repo and submit a pull request.
+
+<h3 align="center">Happy Coding!</h3>
