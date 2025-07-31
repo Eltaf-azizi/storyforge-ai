@@ -41,3 +41,13 @@ Use OpenAI’s models to generate unique, creative narratives.
  - 🌍 Anyone passionate about creative writing or interactive tools.
 
  - 🚀 Learners wanting to understand deployment and production-ready practices.
+
+
+## 🛠️ Tech Stack
+| Technology |  	Purpose                        |
+|------------|----------------------------------|
+| Python     |	Core programming language        |
+| FastAPI    |	Backend API framework            |
+| OpenAI     | GPT	AI model for story generation|
+| Streamlit  |	Web interface for interaction    |
+| AWS EC2    |	Cloud deployment platform        |
